@@ -82,9 +82,5 @@ Main functions:
 * Waiting for STM32 acknowledgment before sending the next command
 * Visualizing the planned motion through a digital twin
 
-The real-time embedded control, inverse kinematics calculation, interpolation, PWM pulse width calculation, and servo actuation are handled by the STM32 firmware.
+"The real-time embedded control, inverse kinematics calculation, interpolation, PWM pulse width calculation, and servo actuation are handled by the STM32 firmware."
 
-* PWM pulse width calculation
-* TIM2-based 4-channel PWM generation
-* Servo motor actuation
-* Maintaining the current actuator position while waiting for new commands
